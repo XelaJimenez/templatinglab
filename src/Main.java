@@ -104,7 +104,7 @@ public class Main {
             switch (userInput) {
                 case 1 -> addIngredient(recipe, scan);
                 case 2 -> recipe.print();
-                default -> System.out.println("Invalid option entered");
+                default -> System.out.println("Invalid Option Entered - Try again");
             }
             System.out.println("Enter Choice Here: ");
             userInput = Menu(scan);
