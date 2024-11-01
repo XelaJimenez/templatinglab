@@ -48,9 +48,9 @@ class Recipe<T extends Ingredient> {
         _ingredients.add(item);
     }
     public void print() {
-        System.out.println(_name);
-        System.out.println(_instructions);
-        System.out.println(_ingredients);
+        System.out.println("Name: " + _name);
+        System.out.println("Instructions: " +_instructions);
+        System.out.println("Ingredients: ");
         for (T t : _ingredients) {
             System.out.println("Name: " + t.getName() + " Quantity: " + t.getQuantity());
         }
