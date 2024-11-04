@@ -106,7 +106,6 @@ public class Main {
                 case 2 -> recipe.print();
                 default -> System.out.println("Invalid Option Entered - Try again");
             }
-            System.out.println("Enter Choice Here: ");
             userInput = Menu(scan);
         }
         scan.close();
